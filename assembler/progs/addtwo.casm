@@ -1,0 +1,4 @@
+# Add two numbers
+PUSH 2
+PUSH 4
+ADD8

@@ -1,0 +1,19 @@
+# Implements 4 * 6
+
+# Define a location to hold our loop value
+D16 second 0x0
+
+# Initialize it
+PUSH 6
+STORE16 second
+
+# Initialize our counter
+PUSH 0
+
+# The loop
+
+# Grab our counter
+LOAD16 second
+POPC
+
+
